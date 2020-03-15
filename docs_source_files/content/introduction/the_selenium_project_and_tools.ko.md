@@ -1,34 +1,22 @@
 ---
-title: "The Selenium project and tools"
+title: "셀레니움 프로젝트와 도구들"
 weight: 1
 ---
 
-{{% notice info %}}
-<i class="fas fa-language"></i> Page being translated from 
-English to Korean. Do you speak Korean? Help us to translate
-it by sending us pull requests!
-{{% /notice %}}
 
-### Selenium controls web browsers
+### 셀레니움은 웹 브라우저를 조종합니다.
 
-_Selenium_ is many things 
-but at its core, it is a toolset for web browser automation
-that uses the best techniques available
-to remotely control browser instances
-and emulate a user's interaction with the browser.
+셀레니움은 하나가 아니라 여럿입니다.
+하지만 그 핵심은 웹브라우저 자동화를 위한 도구 모음이라는 겁니다. 셀레니움은 원격으로 브라우저의 인스턴스들을 조종하고, 브라우저와 사용자의 상호작용을 모방하는데 가용한 최고의 기술을 사용합니다.
 
-It allows users to simulate common activities performed by end-users;
-entering text into fields,
-selecting drop-down values and checking boxes,
-and clicking links in documents.
-It also provides many other controls such as mouse movement,
-arbitrary JavaScript execution, and much more.
+셀레니움을 쓰면 실제 사용자가 할 법한 행동들을 모의할 수 있게 됩니다;
+필드에 텍스트 입력하기
+드롭 다운 값이나 체크 박스 선택
+문서에 링크 클릭하기
+그 외에도 마우스 움직임이나, 임의의 자바스크립트 실행, 그 이상을 제공합니다.
 
-Although used primarily for front-end testing of websites,
-Selenium is at its core a browser user agent _library_.
-The interfaces are ubiquitous to their application,
-which encourages composition with other libraries to suit your purpose.
-
+비록 웹사이트의 프런트엔드 테스트에 주로 사용하긴 하지만, 셀레니움은 그 핵심인 브라우저 사용 행위자(user agent) _library_ 에 있습니다.
+이 인터페이스는 어플리케이션 어디에나 응용할 수 있고, 용도에 맞는 다른 라이브러리와 함께 구축하는 것도 장려합니다.
 
 ### One interface to rule them all
 
